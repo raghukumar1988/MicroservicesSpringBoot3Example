@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+# Below config overrides the default Git config read and maintains in this app itself
+spring:
+  profiles:
+    active: native
+
